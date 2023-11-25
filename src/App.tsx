@@ -6,7 +6,7 @@ import Categories from "./components/Categories";
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full max-w-[1640px] mx-auto">
       <Navbar />
       <Hero />
       <HeadlineCard />

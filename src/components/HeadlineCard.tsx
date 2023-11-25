@@ -31,7 +31,7 @@ const HeadlineCard = () => {
   ];
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-2 grid grid-cols-1 grid-flow-row-dense md:grid-cols-3 gap-8 py-12">
+      <div className="w-full max-w-[1640px] mx-auto p-2 grid grid-cols-1 grid-flow-row-dense md:grid-cols-3 gap-8 py-12">
         {cards.map((items, index) => (
           <div key={index} className="relative max-h-[200px] rounded-xl">
             <div className="w-full h-full absolute  bg-black/30 flex flex-col gap-2 text-gray-300 font-bold rounded-xl">

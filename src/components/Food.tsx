@@ -22,16 +22,16 @@ const Food = () => {
   };
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-2 py-4">
-        <h1 className="text-center text-2xl lg:text-3xl font-semibold text-orange-400 uppercase">
+      <div className="w-full max-w-[1640px] mx-auto p-2 py-4 overflow-hidden">
+        <h1 className="text-center text-2xl lg:text-3xl mx-auto font-semibold text-orange-400 uppercase">
           Today Rated Food Items{" "}
         </h1>
-        <div className="flex flex-col lg:flex-row justify-between gap-2 py-2">
+        <div className="w-full flex flex-col flex-wrap lg:flex-row justify-between gap-2 py-2">
           <div>
             <h1 className="text-black font-semibold lg:text-2xl pb-2 uppercase">
               Filterd By Items
             </h1>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <button
                 onClick={() => setFood(data)}
                 className="border px-4 py-1 border-orange-400 text-orange-400 rounded-md"
